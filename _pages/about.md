@@ -9,15 +9,12 @@ redirect_from:
 
 Hello! I’m **Tan Chia Qian**, a first‑year Computer Science PhD student at the National University of Singapore (NUS). My research lies at the intersection of **Artificial Intelligence** and **Computer Vision**, where I explore novel methods for robust perception and learning.
 
-I completed my Bachelor of Computing (Computer Science) in 2023 at NUS, graduating with [First Class Honours](#). Now, I’m diving into deep learning methods for visual understanding, adversarial robustness, and multimodal inference.
+I completed my Bachelor of Computing (Computer Science) in 2023 at NUS. Now, I’m diving into deep learning methods for visual understanding, adversarial robustness, and multimodal inference.
 
 On this site you’ll find:
 
 - **Publications & Preprints**  
   A curated list of my conference and journal papers, along with links to preprints and code.
-
-- **Talks & Workshops**  
-  Slides and video recordings from my conference presentations and invited talks.
 
 - **Teaching & Mentoring**  
   Coursework I’ve taught, tutorials I’ve developed, and mentees I’ve supervised.
@@ -27,9 +24,6 @@ On this site you’ll find:
 
 - **Blog**  
   Occasional posts on AI/vision research insights, implementation tips, and conference trip reports.
-
-- **CV**  
-  A dynamically generated résumé that stays in sync with the above content.
 
 # A data-driven personal website
 
