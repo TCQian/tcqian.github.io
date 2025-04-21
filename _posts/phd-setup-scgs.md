@@ -9,11 +9,16 @@ tags:
 
 A step-by-step guide to setting up the SC-GS 3D Gaussian Splatting framework from CVMI-Lab using Conda and PyTorch.
 
+# Forked repository
+
+I have [forked](https://github.com/TCQian/SC-GS) the repository and updated the `requirements.txt` file. The following sections will assume you use my fork instead. If you want to work on the original repository instead, you may check out the diff [here](https://github.com/CVMI-Lab/SC-GS/compare/master...TCQian:SC-GS:master).
+
 # Clone repository, initialise submodule in the repository
 
 ```
 git clone https://github.com/TCQian/SC-GS.git
-git submodule iit; git submodule update
+cd SC-GS
+git submodule init; git submodule update
 ```
 
 # Use conda to create a closed virtual environment
@@ -75,4 +80,26 @@ Afterwards, you should be able to install `simple-knn` successfully.
 
 ```
 pip install -e submodules/simple-knn
+```
+
+# Running
+
+The following is identical to the code run steps provided in the original repo.
+
+Set up `data` folder by downloading the `D-NeRF` dataset from [dropbox](https://www.dropbox.com/scl/fi/cdcmkufncwcikk1dzbgb4/data.zip?rlkey=n5m21i84v2b2xk6h7qgiu8nkg&e=1&dl=0)
+
+Your folder should look like this:
+
+```
+├── data
+│   ├── jumpingjacks
+│   ├── bouncingballs
+│   ├── hook
+│   ├── ...
+```
+
+Run training.
+
+```
+CUDA_VISIBLE_DEVICES=0 python train_gui.py --source_path YOUR/PATH/TO/DATASET/jumpingjacks --model_path outputs/jumpingjacks --deform_type node --node_num 512 --hyper_dim 8 --is_blender --eval --gt_alpha_mask_as_scene_mask --local_frame --resolution 2 --W 800 --H 800
 ```
