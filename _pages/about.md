@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I’m **Tan Chia Qian**, a second-year Computer Science PhD student at the **National University of Singapore (NUS)**. My research focuses on **visual computing**, particularly **Gaussian Splatting-based representations** for efficient and high-fidelity modeling of visual content.
+Hello! I’m Tan Chia Qian, a second-year Computer Science PhD student at the National University of Singapore (NUS), where I am advised by [Prof. Ooi Wei Tsang](https://www.comp.nus.edu.sg/cs/people/ooiwt/). I also received my Bachelor of Computing in Computer Science from NUS in 2023.
 
-I am currently exploring hybrid Gaussian representations for **dynamic scenes, videos, and 3D/4D visual data**, with an emphasis on improving the trade-off between rendering quality, compactness, and temporal consistency. More broadly, I am interested in developing scalable visual representation methods that bridge **computer vision**, **computer graphics**, and **neural rendering**.
+My research focuses on dynamic scene representation and compression for 2D and 3D visual content. In particular, I am interested in Gaussian Splatting-based representations that balance rendering quality, compactness, and temporal consistency, with applications in efficient rendering and compression.
 
 On this site you’ll find:
 
